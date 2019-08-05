@@ -1,0 +1,85 @@
+// *{
+//     padding: 0;
+//     margin: 0;
+// }
+body{
+    margin: 0;
+    padding: 0;
+    background: red;
+}
+.container{
+    form{
+        max-width: 30em;
+        margin:  4em auto;
+        position: relative;
+        background-color: rgba(226, 226, 226, 0.561);
+        padding: 2em 3em;
+        box-shadow: 0 3px 5px rgba(148, 143, 148, 0.945);
+        transition: all 0.3s ease-in-out;
+        &:hover{
+            box-shadow: 0 3px 5px rgba(211, 207, 211, 0.945);
+        }
+        .input-group-text{
+            border-radius: 50%;
+            width: 4em;
+            height: 4em;
+            padding: 0 20px;
+            position: absolute;
+            right: 13px;
+            top: 75px;
+            cursor: pointer;
+            i{
+                font-size: 2em;
+            }
+        }
+        .form-control{
+            height: 3em;
+            &:focus{
+                box-shadow: none;
+            }
+        }
+        h1{
+            font-family: sans-serif;
+        }
+        input[type="text"]{
+            border: none;
+            transition: 0.2s ease-in;
+            &:focus{
+                border: none;
+                border-bottom: 3px solid rgb(29, 29, 209);
+            }
+            &::placeholder{
+                color: #666;
+            }
+        }
+        input[type="reset"]{
+            color: rgb(100, 96, 94);
+            background: #aaa;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s ease-in;
+            &:hover{
+                color: rgb(211, 208, 207);
+            }
+        }
+        .data{
+            margin-top: 1em;
+            li{
+                padding: 1.05em;
+                background: #fff;
+                border-left: 4px solid #f97300;
+                position: relative;
+                margin: 8px 0;
+                b{
+                    position: absolute;
+                    right: 20px;
+                    top: 1%;
+                    color: rgb(255, 6, 6);
+                    cursor: pointer;
+                    margin-top: 0;
+                    font-size: 2em;
+                }
+            }
+        }
+    }
+}

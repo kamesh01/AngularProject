@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: red;
+}
+
+.container form {
+  max-width: 30em;
+  margin: 4em auto;
+  position: relative;
+  background-color: rgba(226, 226, 226, 0.561);
+  padding: 2em 3em;
+  -webkit-box-shadow: 0 3px 5px rgba(148, 143, 148, 0.945);
+          box-shadow: 0 3px 5px rgba(148, 143, 148, 0.945);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.container form:hover {
+  -webkit-box-shadow: 0 3px 5px rgba(211, 207, 211, 0.945);
+          box-shadow: 0 3px 5px rgba(211, 207, 211, 0.945);
+}
+
+.container form .input-group-text {
+  border-radius: 50%;
+  width: 4em;
+  height: 4em;
+  padding: 0 20px;
+  position: absolute;
+  right: 13px;
+  top: 75px;
+  cursor: pointer;
+}
+
+.container form .input-group-text i {
+  font-size: 2em;
+}
+
+.container form .form-control {
+  height: 3em;
+}
+
+.container form .form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.container form h1 {
+  font-family: sans-serif;
+}
+
+.container form input[type="text"] {
+  border: none;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+
+.container form input[type="text"]:focus {
+  border: none;
+  border-bottom: 3px solid #1d1dd1;
+}
+
+.container form input[type="text"]::-webkit-input-placeholder {
+  color: #666;
+}
+
+.container form input[type="text"]:-ms-input-placeholder {
+  color: #666;
+}
+
+.container form input[type="text"]::-ms-input-placeholder {
+  color: #666;
+}
+
+.container form input[type="text"]::placeholder {
+  color: #666;
+}
+
+.container form input[type="reset"] {
+  color: #64605e;
+  background: #aaa;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.container form input[type="reset"]:hover {
+  color: #d3d0cf;
+}
+
+.container form .data {
+  margin-top: 1em;
+}
+
+.container form .data li {
+  padding: 1.05em;
+  background: #fff;
+  border-left: 4px solid #f97300;
+  position: relative;
+  margin: 8px 0;
+}
+
+.container form .data li b {
+  position: absolute;
+  right: 20px;
+  top: 1%;
+  color: #ff0606;
+  cursor: pointer;
+  margin-top: 0;
+  font-size: 2em;
+}
+/*# sourceMappingURL=app.component.css.map */
